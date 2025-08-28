@@ -1,0 +1,77 @@
+*, *::after,*::before
+{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+html
+{
+    font-family: "Lato", sans-serif;
+    font-size: 0.75em;
+}
+h1
+{
+    text-align: center;
+}
+body
+{
+    margin:120px auto;
+    padding:10px;
+}
+#content
+{ 
+    padding-top:10px;
+    position: absolute;
+    left:30px;
+}
+#content > #your-birth
+{
+    margin:10px auto;
+    padding: 10px 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button
+{
+    background-color: grey;
+    border: none;
+    padding: 10px 132px;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+}
+button:hover
+{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+#result
+{
+    font-weight: bold;
+}
+#answer
+{
+    text-align: center;
+    padding-top: 130px;
+}
+#p1, #result
+{
+    display:inline;
+}
+@media (min-width:601px)
+{
+    html
+    {
+        font-size: 1em;
+    }
+    #content
+    {
+        position: relative;
+        left: 789px;
+    }
+    #answer
+    {
+        text-align: center;
+        padding-top: 58px;
+    }
+}
